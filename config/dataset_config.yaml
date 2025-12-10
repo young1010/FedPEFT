@@ -1,0 +1,98 @@
+ML1M_t5:
+  data_dir: /data/ml-1m/processed/t5/
+  path: /data/ml-1m/processed/t5/
+  model_dir: /data/ml-1m/model/t5/
+  sen_embedding_dim: 768
+  user_num: 6040
+  item_num: 3952
+
+Amazon_fashion_t5:
+  data_dir: /data/Amazon/
+  meta_dir: /data/Amazon/meta_processed/t5/
+  model_dir: /data/Amazon/model/t5/AMAZON_FASHION/
+  field: AMAZON_FASHION
+  path: /data/Amazon/graph/AMAZON_FASHION
+  sen_embedding_dim: 768
+  user_num: 406
+  item_num: 31
+
+Amazon_movie_t5:
+  data_dir: /data/Amazon/
+  meta_dir: /data/Amazon/meta_processed/t5/
+  model_dir: /data/Amazon/model/t5/Movies_and_TV/
+  field: Movies_and_TV
+  path: /data/Amazon/graph/Movies_and_TV
+  sen_embedding_dim: 768
+  user_num: 297529
+  item_num: 60175
+
+Amazon_instrument_t5:
+  data_dir: /data/Amazon/
+  meta_dir: /data/Amazon/meta_processed/t5/
+  model_dir: /data/Amazon/model/t5/Musical_Instruments/
+  field: Musical_Instruments
+  path: /data/Amazon/graph/Musical_Instruments
+  sen_embedding_dim: 768
+  user_num: 27530
+  item_num: 10620
+
+Amazon_office_t5:
+  data_dir: /data/Amazon/
+  meta_dir: /data/Amazon/meta_processed/t5/
+  model_dir: /data/Amazon/model/t5/Office_Products/
+  field: Office_Products
+  path: /data/Amazon/graph/Office_Products
+  sen_embedding_dim: 768
+  user_num: 101501
+  item_num: 27965
+
+
+Amazon_beauty_t5:
+  data_dir: /data/Amazon/
+  meta_dir: /data/Amazon/meta_processed/t5/
+  model_dir: /data/Amazon/model/t5/All_Beauty/
+  field: All_Beauty
+  path: /data/Amazon/graph/All_Beauty
+  sen_embedding_dim: 768
+  user_num: 991
+  item_num: 85
+
+Amazon_industrial_t5:
+  data_dir: /data/Amazon/
+  meta_dir: /data/Amazon/meta_processed/t5/
+  model_dir: /data/Amazon/model/t5/Industrial_and_Scientific/
+  field: Industrial_and_Scientific
+  path: /data/Amazon/graph/Industrial_and_Scientific
+  sen_embedding_dim: 768
+  user_num: 11041
+  item_num: 5334
+
+Amazon_games_t5:
+  data_dir: /data/Amazon/
+  meta_dir: /data/Amazon/meta_processed/t5/
+  model_dir: /data/Amazon/model/t5/Video_Games/
+  field: Video_Games
+  path: /data/Amazon/graph/Video_Games
+  sen_embedding_dim: 768
+  user_num: 55223
+  item_num: 17408
+
+Amazon_music_t5:
+  data_dir: /data/Amazon/
+  meta_dir: /data/Amazon/meta_processed/t5/
+  model_dir: /data/Amazon/model/t5/Digital_Music/
+  field: Digital_Music
+  path: /data/Amazon/graph/Digital_Music
+  sen_embedding_dim: 768
+  user_num: 16566
+  item_num: 11797
+
+Amazon_software_t5:
+  data_dir: /data/Amazon/
+  meta_dir: /data/Amazon/meta_processed/t5/
+  model_dir: /data/Amazon/model/t5/Software/
+  field: Software
+  path: /data/Amazon/graph/Software
+  sen_embedding_dim: 768
+  user_num: 1826
+  item_num: 802
